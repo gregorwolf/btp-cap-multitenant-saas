@@ -72,7 +72,7 @@ The resulting popup when creating a new subscription will look like the followin
 
 [<img src="./images/MHC_Parameter.jpeg" width="600" />](./images/MHC_Parameter.jpeg?raw=true)
 
-During subscription, you can read the **databaseId** parameter and add it to the subscription payload in the required format (as described in the CAP changelog - [click here](https://cap.cloud.sap/docs/releases/changelog/?q=provisioning_parameters)). 
+During subscription, you can read the **databaseId** parameter and add it to the subscription payload in the required format (as described in the CAP changelog - [click here](https://cap.cloud.sap/docs/releases/changelog/#jan-23-changed)). 
 
 ```js
 service.on('UPDATE', 'tenant', async (req, next) => {
